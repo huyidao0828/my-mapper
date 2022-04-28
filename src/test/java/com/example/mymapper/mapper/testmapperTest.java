@@ -36,6 +36,12 @@ class testmapperTest {
     @Autowired
     private RedisTemplate redisTemplate;
 
+
+    @Test
+    public void test(){
+        System.out.println("test");
+    }
+
     @Test
     void contextLoads() {
         Tests tests = new Tests();
