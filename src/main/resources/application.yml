@@ -27,25 +27,9 @@ spring:
         test-while-idle: true
         test-on-borrow: false
         test-on-return: false
-#  redis:
-#    database: 0
-#    host: 127.0.0.1
-#    port: 6379
-#    password: abc123456
-#    jedis:
-#      pool:
-#        max-active: 1000
-#        max-wait: -1ms
-#        max-idle: 16
-#        min-idle: 8
+
   data:
-#    mongodb:
-#      host: 81.68.121.36
-#      port: 27017
-#      database: emos
-#      authentication-database: admin
-#      username: admin
-#      password: abc123456
+
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.example.emos.wx.db.pojo
