@@ -17,9 +17,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://81.68.121.36:3306/bank?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-        username: root
-        password: abc123456
+        url: xxxx
+        username: xxxx
+        password: xxxxxx
         initial-size: 8
         max-active: 16
         min-idle: 8
